@@ -1,0 +1,14 @@
+node_modules/
+.idea/
+dist/
+
+# exclude everything
+converts/*
+
+# exception to the rule
+!converts/.gitkeep
+
+.env
+yarn.lock
+yarn-error.log
+package-lock.json
